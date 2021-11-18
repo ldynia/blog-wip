@@ -2,7 +2,7 @@
 title: "Markup: Syntax Highlighting"
 excerpt: "Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll's `{% highlight %}` tag."
 last_modified_at: 2017-03-09T10:27:01-05:00
-tags: 
+tags:
   - code
   - syntax highlighting
 ---
@@ -99,7 +99,7 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
 
 1. Do step 1.
 2. Now do this:
-   
+
    ```ruby
    def print_hi(name)
      puts "Hi, #{name}"
@@ -107,7 +107,7 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
    print_hi('Tom')
    #=> prints 'Hi, Tom' to STDOUT.
    ```
-        
+
 3. Now you can do this.
 
 ## GitHub Gist Embed
