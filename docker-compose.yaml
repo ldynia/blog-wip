@@ -1,9 +1,11 @@
 version: "3.9"
 services:
   app:
+    container_name: blog-wip
     image: ruby:latest
-    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    command: bash -c ". /app/scripts/start.sh"
+    working_dir: /app
     volumes:
-      - .:/myapp
+      - .:/app
     ports:
       - "3000:3000"
