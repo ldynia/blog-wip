@@ -8,7 +8,7 @@ description: "It really is the best."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
-date_format: "%B %-d, %Y"
+date_format: "%-d %B %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax:
@@ -37,7 +37,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
+paginate: 100
 # paginate_path: /page:num/
 
 # Search
