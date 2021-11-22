@@ -38,10 +38,14 @@
     @include breakpoint($medium) {
       display: inline-block;
     }
+
+    svg {
+      margin-right: 3px;
+    }
   }
 
   li {
-    display: inline-block;
+    display: inline-flex;
     font-size: 0.75rem;
   }
 

@@ -1,4 +1,3 @@
-# theme: jekyll-theme-midnight
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
@@ -37,14 +36,13 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 100
-# paginate_path: /page:num/
+paginate: 5
+paginate_path: ./page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
 # tag_archive_path: "/tags/#"
 
 # Exclude from processing.
@@ -77,17 +75,20 @@ defaults:
 
 # Site Author
 author:
-  name:
-  picture:
+  name: Michael Rose
+  picture: /images/michael-rose-photo.jpg
   email:
-  twitter:
+  twitter: mmistakes
   links:
-    - title:
-      url:
-      icon:
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+  - title: GitHub
+    url: https://github.com/mmistakes
+    icon: fab fa-github-square

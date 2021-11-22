@@ -9,7 +9,9 @@
           {%- else -%}
             {%- assign url = link.url | relative_url -%}
           {%- endif -%}
-          <li><a href="{{ url }}">{{ link.title }}</a></li>
+          <li>
+            <a href="{{ url }}"><i class="fas {{ link.fas_icon }}"></i>{{ link.title }}</a>
+          </li>
         {%- endfor -%}
       </ul>
     </nav>
