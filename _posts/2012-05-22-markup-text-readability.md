@@ -1,11 +1,11 @@
 ---
 title: "Markup: Text Readability Test"
 excerpt: "A large amount of sample text to test readability of a text heavy page."
-image: 
+image:
   path: /images/so-simple-sample-image-2.jpg
-  thumbnail: /images/so-simple-sample-image-2-400x200.jpg
+  thumbnail: /assets/images/so-simple-sample-image-2-400x200.jpg
   caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
-tags: 
+tags:
   - sample post
   - readability
   - test

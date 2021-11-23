@@ -12,6 +12,7 @@
 .page-title {
   @include fluid-type($min-vw, $max-vw, 48px, 60px);
   margin-bottom: 0.5em;
+  color: red;
   font-family: $title-font-family;
   font-weight: $page-title-weight;
   font-style: italic;
@@ -59,37 +60,6 @@
 
   a {
     color: #fff;
-  }
-}
-
-.page-sidebar {
-  font-size: 0.75rem;
-
-  @include breakpoint($large) {
-    text-align: center;
-  }
-
-  .page-date,
-  .read-time {
-    font-family: $meta-font-family;
-    font-style: italic;
-    white-space: nowrap;
-  }
-
-  .read-time {
-    @include breakpoint($large) {
-      display: block;
-    }
-  }
-
-  .read-time + .page-date::before {
-    content: "\2022";
-    padding: 0 0.5em;
-
-    @include breakpoint($large) {
-      content: "";
-      padding: 0;
-    }
   }
 }
 
@@ -222,9 +192,9 @@
   .page-wrapper {
     @include breakpoint($large) {
       display: grid;
-      grid-column-gap: 3em;
+      grid-column-gap: auto;
       grid-row-gap: 0;
-      grid-template-columns: 175px 1fr;
+      grid-template-columns: auto;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;

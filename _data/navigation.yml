@@ -3,9 +3,9 @@
   url: /
   fas_icon: fa-home
 
-- title: Posts
-  url: /posts/
-  fas_icon: fa-file-alt
+# - title: Posts
+#   url: /posts/
+#   fas_icon: fa-file-alt
 
 - title: Tags
   url: /tags/
