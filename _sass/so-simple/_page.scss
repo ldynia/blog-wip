@@ -13,10 +13,9 @@
   @include fluid-type($min-vw, $max-vw, 48px, 60px);
   margin-bottom: 0.5em;
   // TODO Fix Font style
-  color: red;
+  // font-family: 'GuardianMedium';
   font-family: $title-font-family;
   font-weight: $page-title-weight;
-  font-style: italic;
   letter-spacing: -2px;
 }
 
@@ -232,6 +231,14 @@
   }
 
   .page-content {
+    font-family: 'NotoRegular', serif !important;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.75 !important;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+
     @include breakpoint($large) {
       float: right; // display: grid fallback
       width: 78%; // display: grid fallback

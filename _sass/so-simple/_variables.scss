@@ -2,6 +2,12 @@
    Variables
    ========================================================================== */
 
+/* Fonts */
+@font-face {
+  font-family: 'NotoRegular';
+  src: url('../fonts/noto-serif-v8-latin-regular.woff2') format('woff2');
+}
+
 /* Breakpoint widths */
 $small: 320px !default;
 $medium: 768px !default;

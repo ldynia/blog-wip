@@ -7,6 +7,11 @@
     <style>
       /* Noto */
       @font-face {
+        font-family: 'NotoRegular';
+        src: url('assets/fonts/noto-serif-v8-latin-regular.woff2') format('woff2');
+      }
+
+      @font-face {
         font-family: 'Noto700';
         src: url('fonts/noto-serif-v8-latin-700.woff2') format('woff2');
       }
@@ -15,12 +20,6 @@
         font-family: 'NotoItalic';
         src: url('fonts/noto-serif-v8-latin-italic.woff2') format('woff2');
       }
-
-      @font-face {
-        font-family: 'NotoRegular';
-        src: url('fonts/noto-serif-v8-latin-regular.woff2') format('woff2');
-      }
-
 
       h1.noto-700 {
         font-family: 'Noto700';
@@ -55,6 +54,10 @@
         src: url('fonts/GuardianTextSans-Bold-Web.woff2') format('woff2');
       }
 
+      body {
+        background-color: lightgray;
+      }
+
       h1.guardian-regular {
         font-family: 'GuardianRegular';
       }
@@ -73,11 +76,12 @@
     </style>
 </head>
   <body>
-    <!-- <div>
+    <div>
+      <h1 class="noto-regular">MathJax Example</h1>
       <h1 class="noto-regular">Regular The quick brown fox jumps over the lazy dog</h1>
       <h1 class="noto-700">700 The quick brown fox jumps over the lazy dog</h1>
       <h1 class="noto-italic">Italic The quick brown fox jumps over the lazy dog</h1>
-    </div> -->
+    </div>
     <div>
       <h1 class="guardian-regular">Regular The quick brown fox jumps over the lazy dog</h1>
       <h1 class="guardian-regular-it">RegularIT The quick brown fox jumps over the lazy dog</h1>
