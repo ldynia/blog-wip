@@ -1,3 +1,29 @@
 <!-- start custom footer snippets -->
 
+<script>
+  var theme = document.getElementById("theme");
+  var sunShines = document.cookie.split('theme=')[1].includes('light');
+  if (sunShines) {
+    switchTheme();
+  }
+
+  function switchTheme() {
+    var theme = document.getElementById("theme");
+    var sun = document.getElementById("btn-theme").children[0];
+    var moon = document.getElementById("btn-theme").children[1];
+    var sunShines = sun.attributes['style'].value.includes('visible');
+    if (sunShines) {
+      sun.setAttribute('style', 'display: none;');
+      moon.setAttribute('style', 'display: visible;');
+      document.cookie = "theme=/assets/css/skins/light.css; SameSite=Lax; path=/;";
+      theme.setAttribute('href', '/assets/css/skins/light.css');
+    } else {
+      sun.setAttribute('style', 'display: visible;');
+      moon.setAttribute('style', 'display: none;');
+      document.cookie = "theme=/assets/css/skins/dark.css; SameSite=Lax; path=/;";
+      theme.setAttribute('href', '/assets/css/skins/dark.css');
+    }
+  }
+</script>
+
 <!-- end custom footer snippets -->

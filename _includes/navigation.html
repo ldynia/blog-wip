@@ -13,6 +13,12 @@
             <a href="{{ url }}"><i class="fas {{ link.fas_icon }}"></i>{{ link.title }}</a>
           </li>
         {%- endfor -%}
+        <li>
+          <a onclick="switchTheme()" id="btn-theme" href="#">
+            <i class="fas fa-sun" style="display: visible;"></i>
+            <i class="fas fa-moon" style="display: none;"></i>
+          </a>
+        </li>
       </ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
