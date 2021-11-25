@@ -80,15 +80,27 @@ author:
   email:
   twitter: mmistakes
   links:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/ldynia/
+      icon: fab fa-linkedin
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/ldynia
       icon: fab fa-github-square
+    - title: StackOverflow
+      url: https://stackoverflow.com/users/2095676/lukasz-dynowski
+      icon: fab fa-stack-overflow
 
 # Footer Links
 footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/ldynia/
+    icon: fab fa-linkedin
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/ldynia
     icon: fab fa-github-square
+  - title: StackOverflow
+    url: https://stackoverflow.com/users/2095676/lukasz-dynowski
+    icon: fab fa-stack-overflow
